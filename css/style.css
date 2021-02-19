@@ -27,7 +27,7 @@ body {
     color: var(--web-text-color);
     letter-spacing: var(--letter-spacing);
     font-family: Roboto, sans-serif;
-    font-style: normal;
+    font-style: normal; 
     font-weight: 700;
 }
 /* убираем свойства по умолчанию */
