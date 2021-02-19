@@ -8,7 +8,19 @@
 
 // COMPONENTS
 @import "./components/title";
-@import "./components/logo"
+@import "./components/logo";
+
+// layout
+@import "./layout/nav-web";
+@import "./layout/header-contacts";
+@import "./layout/hero";
+@import "./layout/about-us-uniqum";
+@import "./layout/about-us-work";
+@import "./layout/about-us-team";
+@import "./layout/about-us-client";
+@import "./layout/footer";
+@import "./layout/modal-backdrop";
+
 
 
 
