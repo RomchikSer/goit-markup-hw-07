@@ -7,11 +7,13 @@
     font-family: raleway, sans-serif;
     font-size:26px ;
     line-height: 1.17;
-    
+
+    &:focus{
+        color: var(--focus-text-color); 
+    }
 }
-.logo-studio:focus{
-    color: var(--focus-text-color);
-}
+
+
 .logo-web-color {
     color: var(--focus-text-color);
 }
