@@ -129,6 +129,13 @@ img {
   color: var(--focus-text-color);
 }
 
+.footer .logo-studio {
+  margin-bottom: 20px;
+  display: inline-block;
+  margin-right: 0px;
+  color: var(--secondary-text-color);
+}
+
 .logo-web-color {
   color: var(--focus-text-color);
 }
@@ -391,13 +398,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.footer .logo-studio {
-  margin-bottom: 20px;
-  display: inline-block;
-  margin-right: 0px;
-  color: var(--secondary-text-color);
 }
 
 .address {

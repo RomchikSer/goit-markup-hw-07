@@ -6,13 +6,7 @@
     display: flex;
 }
 
-.footer .logo-studio {
-    margin-bottom: 20px;
-    display: inline-block;
-    margin-right: 0px;
-    color: var(--secondary-text-color);
 
-}
 .address {
     display: flex;
     max-width: 231px;
@@ -110,7 +104,7 @@
     box-sizing: border-box;
     background-color: transparent;
     border-radius: 4px;
-    
+
     &::placeholder {
         font-size: 16px;
         line-height: 1.25;

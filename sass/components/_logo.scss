@@ -11,6 +11,13 @@
     &:focus{
         color: var(--focus-text-color); 
     }
+
+    .footer & {
+        margin-bottom: 20px;
+        display: inline-block;
+        margin-right: 0px;
+        color: var(--secondary-text-color);
+    }
 }
 
 
