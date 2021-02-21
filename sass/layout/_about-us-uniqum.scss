@@ -4,10 +4,12 @@
 }
 .uniqum-list-item .item-uniq{
     width: 270px;
+
+    .uniqum-list-item &:not(:last-child){
+        margin-right: 30px;
+    }
 }
-.uniqum-list-item .item-uniq:not(:last-child){
-    margin-right: 30px;
-}
+
 .uniqum-title {
     color: var(--web-text-color);
     font-size: 14px;
