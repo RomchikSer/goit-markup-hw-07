@@ -16,12 +16,14 @@
   transition-property: border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client-link:hover,
-.client-link:focus {
+
+  &:hover,
+  &:focus {
     fill: var(--focus-text-color);
     border-color: var(--focus-text-color);
+  }
 }
+
 .client-item:not(:last-child) {
     margin-right: 30px;
 }
