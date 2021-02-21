@@ -296,8 +296,7 @@ img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-bt:focus,
-.hero-bt:hover {
+.hero-bt:focus, .hero-bt:hover {
   background: var(--color-hero-button);
 }
 

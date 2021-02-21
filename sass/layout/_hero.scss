@@ -47,8 +47,9 @@
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-bt:focus,
-.hero-bt:hover {
+
+    &:focus,
+    &:hover {
     background: var(--color-hero-button);
+    }
 }
