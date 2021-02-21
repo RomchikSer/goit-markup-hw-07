@@ -164,12 +164,11 @@ img {
   transition: var(--transition);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
   color: var(--focus-text-color);
 }
 
-.nav-web .nav-link.current {
+.nav-web .nav-link .current {
   color: var(--focus-text-color);
   font-weight: 500;
   font-size: 14px;
