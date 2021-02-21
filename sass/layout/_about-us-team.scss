@@ -45,9 +45,12 @@
     align-items: center;
     justify-content: center;
 }
-.social-item:not(:last-child) {
-    margin-right: 10px;
+.social-item {
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
+
 .social-link {
     display: flex;
     justify-content: center;
