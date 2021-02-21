@@ -348,14 +348,14 @@ img {
   display: block;
 }
 
+.work-list .work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .work-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.work-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .title-work {

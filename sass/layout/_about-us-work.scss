@@ -1,13 +1,15 @@
 .work-list .work-item {
     position: relative;
     display: block;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+       }
 }
 .work-list {
  display: flex;
 }
-.work-item:not(:last-child) {
- margin-right: 30px;
-}
+
 .title-work{
     margin-bottom: 50px;
 }
