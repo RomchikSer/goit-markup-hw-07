@@ -372,7 +372,8 @@ img {
   line-height: 1.7;
 }
 
-.map-link:hover, .map-link:focus {
+.map-link:hover, 
+.map-link:focus {
   color: var(--focus-text-color);
 }
 
@@ -431,7 +432,8 @@ img {
   transition: var(--transition-bg);
 }
 
-.social-link:hover, .social-link:focus {
+.social-link:hover, 
+.social-link:focus {
   background-color: var(--focus-text-color);
   fill: var(--secondary-text-color);
 }
@@ -446,7 +448,8 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icons:hover, .social-icons:focus {
+.social-icons:hover, 
+.social-icons:focus {
   background-color: var(--focus-text-color);
   fill: var(--secondary-text-color);
 }
