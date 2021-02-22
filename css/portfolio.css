@@ -356,11 +356,11 @@ img {
   border: var(--portfolio-border-item);
 }
 
-.main-list .main-list .main-list-item:not(:nth-child(3n)) {
+.main-list .main-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
-.main-list .main-list .main-list-item:not(:nth-last-child(-n + 3)) {
+.main-list .main-list-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }
 

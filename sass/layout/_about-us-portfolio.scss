@@ -50,7 +50,9 @@
 .main-list .main-list-item {
     width: 370px;
     border: var(--portfolio-border-item);
+}
 
+.main-list-item {
     .main-list &:not(:nth-child(3n)) {
         margin-right: 30px;
     }
@@ -58,6 +60,8 @@
         margin-bottom: 30px;
     }
 }
+    
+
 
 .main-list-title {
     margin: 0;
