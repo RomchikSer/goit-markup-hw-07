@@ -1,11 +1,12 @@
-.uniqum-list-item{
+.uniqum-list-item {
     display: flex;
     flex-wrap: wrap;
 }
-.uniqum-list-item .item-uniq{
+.uniqum-list-item .item-uniq {
     width: 270px;
-
-    .uniqum-list-item &:not(:last-child){
+}
+.item-uniq {
+    .uniqum-list-item &:not(:last-child) {
         margin-right: 30px;
     }
 }
