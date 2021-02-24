@@ -311,7 +311,7 @@ img {
   width: 270px;
 }
 
-.uniqum-list-item .uniqum-list-item .item-uniq:not(:last-child) {
+.uniqum-list-item .item-uniq:not(:last-child) {
   margin-right: 30px;
 }
 
